@@ -52,7 +52,7 @@ php artisan db:seed
 
 ## Access
 
-Akses at the following link using user credentials:
+Access at the following link using user credentials:
 
 ```sh
 http://127.0.0.1:8000
