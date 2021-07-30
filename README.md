@@ -5,6 +5,17 @@
 * [Access](#access)
 
 ## Installation
+
+Through terminal or command prompt, update composer to install the dependencies:
+
+```sh
+composer update
+```
+or
+```sh
+composer update
+```
+
 In the root folder, find the .env file and change the following values
 
 ```sh
@@ -15,14 +26,9 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-Through terminal or command prompt, update composer to install the dependencies:
-
+Generate key application
 ```sh
-composer update
-```
-or
-```sh
-composer update
+php artisan key:generate
 ```
 
 Run the migration command to create the tables
