@@ -20,6 +20,11 @@ Through terminal or command prompt, update composer to install the dependencies:
 ```sh
 composer update
 ```
+or
+```sh
+composer update
+```
+
 Run the migration command to create the tables
 
 ```sh
