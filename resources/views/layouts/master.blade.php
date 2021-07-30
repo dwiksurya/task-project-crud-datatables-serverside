@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">	
     
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css')}}">
     <!-- Toastr CSS -->
@@ -30,7 +30,7 @@
       @yield('content')
     </div>
 
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/validator.min.js') }}"></script>
     <script src="{{ asset('js/toastr.min.js') }}"></script>
