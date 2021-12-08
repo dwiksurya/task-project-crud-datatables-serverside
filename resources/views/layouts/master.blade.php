@@ -15,14 +15,14 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="{{ asset('css/datatables.min.css') }}">
     @stack('css')
-
+ 
     <title>
       {{ config('app.name') }}
       @if (trim($__env->yieldContent('title')))
         &ndash;
       @endif
-      @yield('title')
-    </title>
+      @yield('title') - test
+c    </title>
   </head>
   <body>
     @include('layouts.navbar')
